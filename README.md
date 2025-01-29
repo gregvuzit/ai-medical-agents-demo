@@ -16,9 +16,10 @@ Ollama: <https://ollama.com/>
 
 Make sure you have pulled at least one model into your local Ollama installation.
 
-Install the **poppler** and **libheif** packages from homebrew:
+Install the **poppler**, **libheif**, and **tesseract** packages from homebrew:
 `brew install poppler`
 `brew install libheif`
+`brew install tesseract`
 
 ## Setup
 
