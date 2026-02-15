@@ -39,8 +39,11 @@ Make sure Ollama is running on the machine.
 
 Run the following and exit():
 
-```import nltk
-nltk.download("punkt")```
+```
+import nltk
+
+nltk.download("punkt")
+```
 
 6. Start app: `python3 -m streamlit run app.pyy`
 
