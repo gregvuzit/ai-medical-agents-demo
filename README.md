@@ -47,7 +47,4 @@ nltk.download("punkt")
 
 6. Start app: `python3 -m streamlit run app.pyy`
 
-
-Make sure the `unstructured` package is version `0.16.12` and `nltk` is `3.9.1` or you will run into this: <https://github.com/Unstructured-IO/unstructured/issues/3511> (see <https://github.com/Unstructured-IO/unstructured/issues/3511#issuecomment-2603714045>)
-
 On first load, the app will setup the RAG store in the `chroma_db` directory off the root. This will take anywhere from around 15-30 minutes.
