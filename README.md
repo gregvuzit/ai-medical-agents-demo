@@ -45,6 +45,6 @@ import nltk
 nltk.download("punkt")
 ```
 
-6. Start app: `python3 -m streamlit run app.pyy`
+6. Start app: `python3 -m streamlit run app.py`
 
 On first load, the app will setup the RAG store in the `chroma_db` directory off the root. This will take anywhere from around 15-30 minutes.
